@@ -5,8 +5,17 @@
 
 body {
 	background-color: #c8ec00;
-  	overflow-x: hidden;
+  overflow-x: hidden;
 }
+
+.container-fluid {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row, .col {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 
@@ -34,6 +43,11 @@ body {
 .nav-link {
 	font-family: 'Rubik Mono One', sans-serif;
 }
+
+.navbar-toggler {
+	color: #283747;
+}
+
 
 #logo-personal {
 	height: 5vh;
@@ -140,20 +154,12 @@ body {
 	background-color: #C8EC00;
 }
 
+.center-text {
+	text-align: center;
+}
+
 /*scrollbar*/
-body::-webkit-scrollbar {
-  width: 12px;               /* width of the entire scrollbar */
-}
 
-body::-webkit-scrollbar-track {
-  background: transparent;        /* color of the tracking area */
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: #283747;    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 2px #283747;  /* creates padding around scroll thumb */
-}
 
 /*Media Query*/
 
@@ -193,6 +199,7 @@ body::-webkit-scrollbar-thumb {
 	.card {
 		display: none;
 	}
+
 }
 
 @media (max-width: 320px) {
@@ -223,6 +230,11 @@ body::-webkit-scrollbar-thumb {
 	#profile {
 		height: 20vh;
 	}
+
+	#project-container {
+		padding: 0;
+	}
+
 
 }
 
