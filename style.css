@@ -1,0 +1,242 @@
+* {
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #c8ec00;
+  	overflow-x: hidden;
+}
+}
+
+
+.jumbotron {
+	height: 100vh;
+}
+
+.display-4 {
+	font-family: 'Rubik Mono One', sans-serif;
+}
+
+
+#first-p {
+	text-align: justify;
+}
+
+.navbar {
+	background-color: #c8ec00;
+}
+
+.navbar-brand {
+	font-family: 'Rubik Mono One', sans-serif;
+}
+
+.nav-link {
+	font-family: 'Rubik Mono One', sans-serif;
+}
+
+#logo-personal {
+	height: 5vh;
+}
+
+.lead {
+	text-align: justify;
+}
+
+/*div {
+	max-width: 100%;
+}*/
+
+#landing-img {
+	height: 70vh;
+	display: flex;
+
+	align-content: center;
+}
+
+/*About*/
+
+#about {
+	font-family: 'Rubik Mono One', sans-serif;
+	text-align: center;
+}
+
+#subtext-about {
+	text-align: center;
+}
+
+.title-h5 {
+	font-family: 'Rubik Mono One', sans-serif;
+	text-align: center;
+}
+
+.blue-bg {
+	background-color: #283747;
+}
+
+#profile {
+	height: 60vh;
+}
+
+.about-p {
+	text-align: justify;
+}
+
+.card-img-top {
+	width: 150px;
+}
+
+.card {
+	text-align: center;
+}
+
+
+/*Projects*/
+
+.carousel .carousel-item {
+  height: 600px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 600px;
+}
+
+.plain {
+	text-decoration: none;
+}
+
+.carousel-control-next:hover {
+ background-image: linear-gradient(to right, rgba(250, 0, 0, 0) 0px, rgba(200, 236, 0, 0.5) 100%);
+}
+.carousel-control-prev:hover{
+ background-image: linear-gradient(to left, rgba(250, 0, 0, 0) 0px, rgba(200, 236, 0, 0.5) 100%);
+}
+
+/*Footer*/
+.social {
+	width: 20px;
+	height: 20px;
+}
+
+/*colors and fonts*/
+
+.green-color {
+	color: #c8ec00;
+}
+
+.white {
+	color: white;
+}
+
+.rubik {
+	font-family: 'Rubik Mono One', sans-serif;
+}
+
+.green-bg {
+	background-color: #C8EC00;
+}
+
+/*scrollbar*/
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #283747;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 2px #283747;  /* creates padding around scroll thumb */
+}
+
+/*Media Query*/
+
+
+@media (max-width: 768px) {
+	.jumbotron {
+		height: 85vh;
+	}
+
+	#first-p {
+		font-size: 15px;
+	}
+
+	#profile {
+		height: 40vh;
+	}
+
+	.about-p {
+		text-align: justify;
+	}
+
+	.about-h6 {
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 425px) {
+	.jumbotron {
+		height: 50vh;
+	}
+
+	#profile {
+		height: 30vh;
+	}
+
+	.card {
+		display: none;
+	}
+}
+
+@media (max-width: 320px) {
+	.jumbotron {
+		height: 30vh;
+	}
+
+	.display-4 {
+		font-size: 20px;
+	}
+
+	p {
+		font-size: 10px;
+	}
+
+	.navbar {
+		margin: 10px;
+	}
+
+	#first-p {
+		font-size: 10px;
+	}
+
+	.lead {
+		font-size: 15px;
+	}
+
+	#profile {
+		height: 20vh;
+	}
+
+}
+
+@media (max-width: 1440px) {
+
+	.jumbotron {
+		display: flex;
+
+		justify-content: center;
+	}
+
+	#landing-img {
+		display: flex;
+
+		justify-content: center;
+	}
+}
