@@ -164,6 +164,7 @@ body::-webkit-scrollbar-track {
  
 body::-webkit-scrollbar-thumb {
   background-color: #283747;
+  border-radius: 20px;
 }
 
 /*Media Query*/
