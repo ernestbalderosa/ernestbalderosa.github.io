@@ -20,7 +20,7 @@ body {
 
 
 .jumbotron {
-	height: 100vh;
+	height: 	;
 }
 
 .display-4 {
@@ -102,6 +102,11 @@ body {
 
 .card {
 	text-align: center;
+}
+
+
+#about-content {
+	background-color: #283747;
 }
 
 
@@ -202,7 +207,7 @@ body {
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 375px) and (min-width: 200px){
 	.jumbotron {
 		height: 50vh;
 	}
@@ -235,10 +240,15 @@ body {
 		padding: 0;
 	}
 
+	#map {
+		width: 200px;
+		height: 200px;
+	}
+
 
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1440px) and (min-width: 1024px) {
 
 	.jumbotron {
 		display: flex;
@@ -246,9 +256,4 @@ body {
 		justify-content: center;
 	}
 
-	#landing-img {
-		display: flex;
-
-		justify-content: center;
-	}
 }
